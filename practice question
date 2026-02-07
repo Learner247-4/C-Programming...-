@@ -1,0 +1,294 @@
+// find the largest among two 
+// #include <stdio.h>
+// int main(){ 
+//     int a=10;
+//     int b=20;
+//     // printf("Enter two numbers: ");
+//     if (a>b){
+//         printf("The largest number is: %d", a);
+//     }
+//     else {
+//         printf("The largest number is: %d", b);
+//     }
+//     return 0; 
+// }
+
+
+// find the largest among three no.
+// #include <stdio.h>
+// int main(){  
+//     int a=10;
+//     int b=20;
+//     int c=15;
+//     // printf("Enter three numbers: ");
+//     if (a>=b && a>=c){
+//         printf("The largest number is: %d", a);
+//     }
+//     else if (b>=a && b>=c){
+//         printf("The largest number is: %d", b);
+//     }
+//     else {
+//         printf("The largest number is: %d", c);
+//     }
+//     return 0; 
+// }
+
+
+
+// find the largest among two number using ternairy operator
+// #include <stdio.h>
+// int main (){  
+//     int a=0;
+//     int b=0;
+//     // printf("Enter two numbers: ");
+    
+//     // using ternary operator
+//     int largest = (a>b) ? a : b;
+//     printf("The largest number is: %d", largest);
+//     return 0;  
+// }
+
+
+// find the largest among three number using ternary operator
+// #include <stdio.h>
+// int main (){
+//     int a=10;
+//     int b=20;
+//     int c=15;
+//     int largest=(a>=b && a>=c) ? a : (b>=a && b>=c) ? b : c;
+//     printf("The largest number is: %d", largest);
+//     return 0;
+// }
+
+
+// calculate the simple interest with principle amount of one lakh for three years at the rate of 8% using formula
+// #include <stdio.h>
+// int main (){
+//     float P=100000; // principle amount
+//     float R=8;      // rate of interest
+//     float T=3;      // time in years
+//     float SI;       // simple interest
+
+//     SI = (P * R * T) / 100;
+//     printf("The Simple Interest is: %.2f", SI);
+//     return 0;
+// }
+
+
+
+// find the averaage of n numbers
+#include <stdio.h>
+int main(){
+    int list[13]={1,2,3,4,5,6,7,8,9,10,11,12,13};
+    int sum=0;
+    for (int i=0;i<13;i++){
+        sum=i+sum;
+        printf("%d",sum/13);
+    }
+}
+
+
+// swap using two variable using jumbled` variable
+// check the year is leap year or not
+                //  A year is a leap year if:
+                // It's divisible by 4 AND not divisible by 100, OR
+                // It's divisible by 400
+// #include <stdio.h>
+// int main(){
+//     int year=2020;
+//     if (((year%4==0) && (year%100!=0)) || (year%400==0)){
+//         printf("The year %d is a leap year", year);
+//     }
+//     else {
+//         printf("The year %d is not a leap year", year);
+//     }
+//     return 0;
+// }
+
+
+
+
+// swap b/w no. withut temp variable
+// check the elegibility of marriage (minor,major,senior citizen,invalid age,major with valid)
+// #include <stdio.h>
+// int main(){
+//     int age=16;
+//     if (age<18 && age>0){
+//         printf("You are a minor");
+//     }
+//     else if (age>=18 && age<50){
+//         printf("You are major");
+//     }
+//     else if (age>=60){
+//         printf("You are senior citizen ");
+//     }
+//     else {
+//         printf("Invalid age");
+//     }
+// }
+
+
+// find without the grade using given attendance percentage 
+// #include <stdio.h>
+// int main(){
+//     int attendance =95;
+//     if (attendance >=95){
+//         printf("O Grade");
+//     }
+//     else if (attendance>=90){
+//         printf("A+ Grade");
+//     }
+//     else if (attendance>=85){
+//         printf("A Grade");
+//     }
+//     else if (attendance>=80){
+//         printf("B+ Grade");
+//     }
+//     else if (attendance>=75){
+//         printf("B Grade");
+//     }
+//     else {
+//         printf("No Grade");
+//     }
+// }
+
+
+
+
+
+
+
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//     char name[] = "_._Self_Lover_._";
+//     int count=0;
+//     for (int i=0;i<strlen(name);i++){
+//         if (name[i]>=65 && name[i]<=90 || name[i]>=97 && name[i]<=122){
+//             count++;
+//         }
+//     }
+// printf("%d",count);
+// }
+
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//   char name[]="Innocent_Guy";
+//   int count=0;
+//   for (int i =0;i<strlen(name);i++){
+//     if (name[i]>=65 && name[i]<=90){
+//       count++;
+//     }
+//   }
+//   printf("%d",count);
+// }
+
+
+
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//   char name[]="HeArtsTeAlEr";
+  
+//   for (int i =0;i<strlen(name);i++){
+//     if (name[i]>=65 && name[i]<=90){
+//       printf("%c",name[i]+32);
+//     }
+//     else{
+//       printf("%c",name[i]-32);
+//     }
+// }
+// }
+
+
+
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//   char name[]="_._mR.iNdIa";
+  
+//   for (int i =0;i<strlen(name);i++){
+//     if (name[i]>=65 && name[i]<=90){
+//       printf("%c",name[i]+32);
+//     }
+//     else if (name[i]>=97 && name[i]<=122){
+//       printf("%c",name[i]-32);
+//     }
+//     else{
+//       printf("%c",name[i]);
+//     }
+// }
+// }
+
+
+
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//   char name[]="Dad_Little_Princess";
+//   int count=0;
+//     for (int i =0;i<strlen(name);i++){
+//     if (name[i]>=97 && name[i]<=122){
+//       count++;
+//     }
+//   }
+//   printf("%d",count);
+// }
+
+
+
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//   char name[]="LiFe-SaVeR";
+//   for (int i =strlen(name);i>=0;i--){
+//     if (name[i]>=65 && name[i]<=90){
+//       printf("%c",name[i]+32);
+//     }
+//     else if (name[i]>=97 && name[i]<=122){
+//       printf("%c",name[i]-32);
+//     }
+//     else{
+//       printf("%c",name[i]);
+//     }
+// }
+// }
+
+
+
+
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//   char name[]="Dusky_Princess12345";
+//     for (int i =strlen(name);i>=0;i--){
+//       if (name[i]>=48 && name[i]<=57){
+//         printf("%c",name[i]);
+//       }
+//     }
+//   }
+  
+
+
+
+
+
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//   int big=0;
+//   int small =0;
+//   char name[] = "LoVeR_bOy";
+//   for (int i =0;i<=strlen(name);i++){
+//     if (name[i]>=65 && name[i]<=90){
+//       big++;
+//     }else if(name[i]>=97 && name[i]<=122){
+//       small++;
+//     }
+    
+//   }
+//   printf("%d,%d",big ,small);
+// }
+
+
