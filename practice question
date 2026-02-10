@@ -292,3 +292,123 @@ int main(){
 // }
 
 
+
+10/02/26
+
+
+#include <stdio.h>
+int main(){
+    // Switch case statement 
+
+    // int x=1;
+    // switch (x)
+    // {
+    // case 1:
+    //     printf("One");
+    //     break;
+    // case 2 :
+    //     printf("Two");
+    //     break;
+    // default:
+    //     printf("Invalid");
+    //     break;
+    // }
+
+
+// get input from user single letter match (+,-,*,/) it should print actual name
+// which symbol is shown above here operate its operations 
+    // char x;
+    // scanf("%c",&x);
+    // switch (x){
+    //     case '+' :
+    //         printf("Addition");
+    //         break;
+    //     case '-':
+    //         printf("Subtration");
+    //         break;
+    //     case '*':
+    //         printf("Multiplication");
+    //         break;
+    //     case '/':
+    //         printf("Division");
+    //         break;
+
+
+    // char x;
+    // int a,b;
+    // scanf(" %d",&a);
+    // scanf(" %d",&b);
+    // scanf(" %c",&x);
+    // switch (x){
+    //     case '+' :
+    //         printf("Addition : %d",a+b);
+    //         break;
+    //     case '-':
+    //         printf("Subtration : %d", a-b);
+    //         break;
+    //     case '*':
+    //         printf("Multiplication : %d", a*b);
+    //         break;
+    //     case '/':
+    //         printf("Division : %d",a/b);
+    //         break;
+    //     default :
+    //         printf("Invalid Input !!");
+    // }
+
+
+
+    // find area of following according to given cases
+        // 1 --> circle
+        // 2 --> rectangle
+        // 3 --> square 
+        // 4 --> triangle
+
+
+
+    char x;
+    int a,b;
+    scanf(" %d",&a);
+    scanf(" %d",&b);
+    scanf(" %c",&x);
+    switch (x){
+        case '1' :
+            printf("Area of circle : %d",(22/7)*a*a);
+            break;
+        case '3':
+            printf("Area of square : %d", a*a);
+            break;
+        case '2':
+            printf("area of rectangle : %d", a*b);
+            break;
+        case '/':
+            printf("area of triangle : %d",(1/2)*a*b);
+            break;
+        default :
+            printf("Invalid Input !!");
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
