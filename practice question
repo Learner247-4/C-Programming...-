@@ -389,7 +389,7 @@ int main(){
     }
 }
 
-
+// --------------------------------------------------------------------------------------------------------------------------------------------------
 09/02/26
 
 // print the list of number from 21-40 without divisible of three
@@ -453,8 +453,390 @@ int main()
   //     printf("%d\n ",i);
   //   }
   }
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+// Nested Loop with pattern problems ...
 
 
+
+
+
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==3 || y==3){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+// pattern H   LTFIE
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (y==1 || i==3 || y==5){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (y==1 || i==5){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 || y==3){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 || y==1 || i==3){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 || i==5 || y==3){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 || i==5 || y==1 || i==3){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// outer rows   inner column
+// N
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (y==1 || i==y || y==5){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// Z
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 || i+y==6 || i==5){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+// P
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 || i==3 || y==1 || i==2 && y==5){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }
+
+// B
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 && y<=4 || i==3 && y<=4|| i==5 && y<=4 || i*y==20 || i*y==10 || y==1){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }   
+// ---------------------------------------------------------------------------------
+// A
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==3 || y ==1 && i>=3 || y==5 && i>=3 || i==2 && y==2 || i==2 && y==4 || i==1 && y==3 ){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }  
+
+
+// G
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (y==1 || i==1 && y<=2 || y==3 && i>=3 || i==5 && y==2){
+//                 printf("* ");
+//             }else{                                                                  // INCOMPLETE
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }  
+
+
+// ---------------------------------------------------------------------------------------------------------------------------
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 && y<=4 || i==3 && y<=4|| i==5 && y<=4 || i*y==20 || i*y==10 || y==1){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }  
+
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 && y<=4 || i==3 && y<=4|| i==5 && y<=4 || i*y==20 || i*y==10 || y==1){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }  
+
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 && y<=4 || i==3 && y<=4|| i==5 && y<=4 || i*y==20 || i*y==10 || y==1){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }  
+
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 && y<=4 || i==3 && y<=4|| i==5 && y<=4 || i*y==20 || i*y==10 || y==1){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }  
+
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 && y<=4 || i==3 && y<=4|| i==5 && y<=4 || i*y==20 || i*y==10 || y==1){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }  
+
+
+
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//         for (int y=1;y<=5;y++){
+//             if (i==1 && y<=4 || i==3 && y<=4|| i==5 && y<=4 || i*y==20 || i*y==10 || y==1){
+//                 printf("* ");
+//             }else{
+//                 printf("  ");
+//             }
+//         }
+//         printf("\n");
+//     }
+// }  
+
+
+// M
+// #include <stdio.h>
+// int main(){
+//     for (int i =1;i<=5;i++){
+//          for (int y=1;y<=5;y++){
+        //     if ( y==1 || y==5 || (i==y && i>=3)){
+        //         printf("* ");
+        //     }else{
+        //         printf("  ");
+        //     }
+        // }
+        // printf("\n");
+ //         for (int y=1;y<=5;y++){
+        //     if ( y==1 || y==5 || (i==y && i>=3)){
+        //         printf("* ");
+        //     }else{
+        //         printf("  ");
+        //     }
+        // }
+        // printf("\n");
+//     }
+// }  
+//  ----------------------------------------------------------------------------------------------------------------------------
+
+
+
+//                                          Printing Name Using Nested Loop
+
+
+
+#include <stdio.h>
+int main(){
+    for (int i =1;i<=5;i++){
+
+        for (int y=1;y<=5;y++){
+            if (i==1 && y<=4 || i==3 && y<=4|| y==1 || i==2 && y==5 ){
+                printf("* ");
+            }else{
+                printf("  ");
+            }
+        }
+        printf("  ");
+        for (int y=1;y<=5;y++){
+            if (i==1 && y<=4 || i==3 && y<=4|| y==1 || ((i==2 || i==5) && y==5) || i==4 && y==4)   {
+                printf("* ");
+            }else{
+                printf("  ");
+            }
+        }
+        printf("  ");
+        for (int y=1;y<=5;y++){
+            if (i==3 || y ==1 && i>=3 || y==5 && i>=3 || i==2 && y==2 || i==2 && y==4 || i==1 && y==3 ){
+                printf("* ");
+            }else{
+                printf("  ");
+            }
+        }
+        printf("  ");
+        for (int y=1;y<=5;y++){
+            if (y==1 || i==y || y==5){
+                printf("* ");
+            }else{
+                printf("  ");
+            }
+        }
+        printf("  ");
+        for (int y=1;y<=5;y++){
+            if (i==3 || y ==1 && i>=3 || y==5 && i>=3 || i==2 && y==2 || i==2 && y==4 || i==1 && y==3 ){
+                printf("* ");
+            }else{
+                printf("  ");
+            }
+        }
+        printf("  ");
+        for (int y=1;y<=5;y++){
+            if ( i==y && i<=3 || i+y==6 && i<=3 || y==3 && i>=3){
+                printf("* ");
+            }else{
+                printf("  ");
+            }
+        }
+        printf("\n");
+       
+    }
+}  
 
 
 
